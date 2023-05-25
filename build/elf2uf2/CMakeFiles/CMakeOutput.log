@@ -1,0 +1,83 @@
+The system is: Windows - 10.0.22000 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx86/x86/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.29.30146.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "D:/LBNP_programming/Pico/AD5694R/build/elf2uf2/CMakeFiles/3.25.0-rc2/CompilerIdC/CMakeCCompilerId.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx86/x86/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.29.30146.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is MSVC, found in "D:/LBNP_programming/Pico/AD5694R/build/elf2uf2/CMakeFiles/3.25.0-rc2/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/LBNP_programming/Pico/AD5694R/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-ncghjj
+
+Run Build Command(s):C:/VSARM/mingw/mingw32/bin/mingw32-make.exe -f Makefile cmTC_73fd7/fast && mingw32-make.exe[3]: Entering directory 'D:/LBNP_programming/Pico/AD5694R/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-ncghjj'
+C:/VSARM/mingw/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_73fd7.dir\build.make CMakeFiles/cmTC_73fd7.dir/build
+mingw32-make.exe[4]: Entering directory 'D:/LBNP_programming/Pico/AD5694R/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-ncghjj'
+Building C object CMakeFiles/cmTC_73fd7.dir/CMakeCCompilerABI.c.obj
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_73fd7.dir\CMakeCCompilerABI.c.obj.d --working-dir=D:\LBNP_programming\Pico\AD5694R\build\elf2uf2\CMakeFiles\CMakeScratch\TryCompile-ncghjj --filter-prefix="Note: including file: " -- C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_73fd7.dir\CMakeCCompilerABI.c.obj /FdCMakeFiles\cmTC_73fd7.dir/ /FS -c "C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCCompilerABI.c"
+CMakeCCompilerABI.c
+Linking C executable cmTC_73fd7.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_73fd7.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_73fd7.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_73fd7.dir\objects1  /out:cmTC_73fd7.exe /implib:cmTC_73fd7.lib /pdb:D:\LBNP_programming\Pico\AD5694R\build\elf2uf2\CMakeFiles\CMakeScratch\TryCompile-ncghjj\cmTC_73fd7.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+mingw32-make.exe[4]: Leaving directory 'D:/LBNP_programming/Pico/AD5694R/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-ncghjj'
+mingw32-make.exe[3]: Leaving directory 'D:/LBNP_programming/Pico/AD5694R/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-ncghjj'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/LBNP_programming/Pico/AD5694R/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-mnrisc
+
+Run Build Command(s):C:/VSARM/mingw/mingw32/bin/mingw32-make.exe -f Makefile cmTC_2437c/fast && mingw32-make.exe[3]: Entering directory 'D:/LBNP_programming/Pico/AD5694R/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-mnrisc'
+C:/VSARM/mingw/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_2437c.dir\build.make CMakeFiles/cmTC_2437c.dir/build
+mingw32-make.exe[4]: Entering directory 'D:/LBNP_programming/Pico/AD5694R/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-mnrisc'
+Building CXX object CMakeFiles/cmTC_2437c.dir/CMakeCXXCompilerABI.cpp.obj
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_2437c.dir\CMakeCXXCompilerABI.cpp.obj.d --working-dir=D:\LBNP_programming\Pico\AD5694R\build\elf2uf2\CMakeFiles\CMakeScratch\TryCompile-mnrisc --filter-prefix="Note: including file: " -- C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_2437c.dir\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\cmTC_2437c.dir/ /FS -c "C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp"
+CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_2437c.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_2437c.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_2437c.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_2437c.dir\objects1  /out:cmTC_2437c.exe /implib:cmTC_2437c.lib /pdb:D:\LBNP_programming\Pico\AD5694R\build\elf2uf2\CMakeFiles\CMakeScratch\TryCompile-mnrisc\cmTC_2437c.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+mingw32-make.exe[4]: Leaving directory 'D:/LBNP_programming/Pico/AD5694R/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-mnrisc'
+mingw32-make.exe[3]: Leaving directory 'D:/LBNP_programming/Pico/AD5694R/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-mnrisc'
+
+
+

@@ -1,0 +1,3 @@
+D:/LBNP_programming/Pico/AD5694R/build/pioasm/CMakeFiles/pioasm.dir
+D:/LBNP_programming/Pico/AD5694R/build/pioasm/CMakeFiles/edit_cache.dir
+D:/LBNP_programming/Pico/AD5694R/build/pioasm/CMakeFiles/rebuild_cache.dir
