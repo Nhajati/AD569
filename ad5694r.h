@@ -8,6 +8,7 @@
 #define DAC_C    (0b0010)
 #define DAC_D    (0b0011)
 
+// Table 8 - Address Commands
 #define CH_NONE (0b0000)
 #define CH_A    (0b0001)
 #define CH_B    (0b0010)
@@ -17,10 +18,15 @@
 
 #define ADDRMSB (0b01100)  //7 BIT ADDRESS FIRST FIVE MSB 00011 << 2
 
+// Table 7 - Command Definition
 #define   NoOperation           (0b0000)
 #define   WriteInputRegister    (0b0001)
 #define   UpdateDacWithInput    (0b0010)
 #define   WriteUpdate           (0b0011)
+#define   PwrDwn_PwrUP          (0b0100)
+#define   HardwareLDACMask      (0b0101)
+#define   SoftwareReset         (0b0110)
+#define   InternalRefSetupReg   (0b0111)
 
 #define   stateNormal      (0b0000)
 #define   stateGND1k       (0b0001)
@@ -33,8 +39,9 @@ class AD5696{
  public:
   AD5696();
   void begin();
-  void setDAC(uint8_t addr, uint8_t channel, uint8_t operation, uint16_t value);
-  void readDAC(uint8_t addr, uint8_t channel, uint8_t operation, uint16_t *returnArray);
+  // void setDAC(uint8_t addr, uint8_t channel, uint8_t operation, uint16_t value);
+  void setDAC(uint8_t addr, uint16_t value); 
+  // void readDAC(uint8_t addr, uint8_t channel, uint8_t operation, uint16_t *returnArray);
   void setPowerState(uint8_t addr, uint8_t A_State, uint8_t B_State, uint8_t C_State, uint8_t D_State);
   void setLDACMask(uint8_t addr, uint8_t channel);
   void reset(uint8_t addr);
