@@ -18,6 +18,8 @@ void setPowerState(uint8_t A_State, uint8_t B_State, uint8_t C_State, uint8_t D_
 }
 
 int main(){
+
+    AD5696 ad5694r;
     // Init i2c1 controller
     i2c_init(i2c1, 1000000);
 
@@ -33,6 +35,10 @@ int main(){
     sleep_ms(250);
 
     // Table 10 - Power-down mode for DAC C and DAC D, since we're only using A and B channels
+    ad5694r.setPowerState(/*DAC A*/ stateNormal, /*DAC B*/ stateNormal, /*DAC C*/ stateNC, /*DAC D*/ stateNC);
+    
+    // Table 14 & 15 - Disable internal reference, since we are using an external VERF
+    
 
     // Set DAC
 
