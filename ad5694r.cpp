@@ -1,5 +1,38 @@
 #include "ad5694r.h"
 
+
+void  AD5696::initialize(){
+    // DAC reset pin
+    gpio_init(RESET_GPIO);
+    gpio_set_dir(RESET_GPIO, GPIO_OUT);
+    gpio_put(RESET_GPIO, 1); // Active low pin
+
+    // DAC LDAC pin
+    gpio_init(LDAC_GPIO);
+    gpio_set_dir(LDAC_GPIO, GPIO_OUT); 
+    gpio_put(LDAC_GPIO, 0); // Table 13
+
+    // Init i2c1 controller
+    i2c_init(i2c1, 1000000);
+
+    // Set up pins 18 and 19
+    gpio_set_function(18, GPIO_FUNC_I2C);
+    gpio_set_function(19, GPIO_FUNC_I2C);
+    gpio_pull_up(18);
+    gpio_pull_up(19);
+
+    // If you don't do anything before initializing a display pi pico is too fast and starts sending
+    // commands before the screen controller had time to set itself up, so we add an artificial delay for
+    // ad5694r to set itself up
+    sleep_ms(250);
+
+    // Table 10 - Power-down mode for DAC C and DAC D, since we're only using A and B channels
+    setPowerState(/*DAC A*/ stateNormal, /*DAC B*/ stateNormal, /*DAC C*/ stateNC, /*DAC D*/ stateNC);
+    
+    // Table 14 & 15 - Disable internal reference, since we are using an external VERF
+    internalRefDisabled(true);
+}
+
 // I don't think we will need to write to input and then update DAC in separate commands! I'll do them together with 0b0011 command
 void AD5696::setDAC(uint8_t dac_addr, uint16_t value){
     uint8_t msb = (value >> 8) & 0XFF;
@@ -36,40 +69,25 @@ void AD5696::reset(uint pin_gp){
 int main(){
 
     stdio_init_all();
-    
-    // DAC reset pin
-    gpio_init(RESET_GPIO);
-    gpio_set_dir(RESET_GPIO, GPIO_OUT);
-    gpio_put(RESET_GPIO, 1); // Active low pin
-
-    // DAC LDAC pin
-    gpio_init(LDAC_GPIO);
-    gpio_set_dir(LDAC_GPIO, GPIO_OUT); ////////////////////////
-
 
     AD5696 ad5694r;
-    // Init i2c1 controller
-    i2c_init(i2c1, 1000000);
 
-    // Set up pins 18 and 19
-    gpio_set_function(18, GPIO_FUNC_I2C);
-    gpio_set_function(19, GPIO_FUNC_I2C);
-    gpio_pull_up(18);
-    gpio_pull_up(19);
-
-    // If you don't do anything before initializing a display pi pico is too fast and starts sending
-    // commands before the screen controller had time to set itself up, so we add an artificial delay for
-    // ad5694r to set itself up
-    sleep_ms(250);
-
-    // Table 10 - Power-down mode for DAC C and DAC D, since we're only using A and B channels
-    ad5694r.setPowerState(/*DAC A*/ stateNormal, /*DAC B*/ stateNormal, /*DAC C*/ stateNC, /*DAC D*/ stateNC);
-    
-    // Table 14 & 15 - Disable internal reference, since we are using an external VERF
-    ad5694r.internalRefDisabled(true);
+    ad5694r.initialize();    
 
     // Set DAC
     // probably should put it inside an interrupt, to have ref and meas at the same instance saved.
+    
+    // Test values for DAC A and DAC B
+    uint16_t dacAValue = 2048;  // Example value for DAC A
+    uint16_t dacBValue = 4095;  // Example value for DAC B
+
+    ad5694r.setDAC(CH_A, dacAValue);
+    ad5694r.setDAC(CH_B, dacBValue);
+
+    while (1)
+    {
+    /* code */
+    }
 
     return 0;
 
