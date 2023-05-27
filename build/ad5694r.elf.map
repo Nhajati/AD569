@@ -53,6 +53,10 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/ad5694r.dir/ad5694r.cpp.obj
  .data          0x00000000        0x0 CMakeFiles/ad5694r.dir/ad5694r.cpp.obj
  .bss           0x00000000        0x0 CMakeFiles/ad5694r.dir/ad5694r.cpp.obj
+ .text._ZN6AD56966setDACEht
+                0x00000000       0x2c CMakeFiles/ad5694r.dir/ad5694r.cpp.obj
+ .text._ZN6AD56965resetEj
+                0x00000000       0x18 CMakeFiles/ad5694r.dir/ad5694r.cpp.obj
  .text          0x00000000        0x0 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
  .data          0x00000000        0x0 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
  .bss           0x00000000        0x0 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
@@ -129,8 +133,6 @@ Discarded input sections
                 0x00000000       0x98 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .text.gpio_set_input_enabled
                 0x00000000       0x30 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .text.gpio_init
-                0x00000000       0x16 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .text.gpio_deinit
                 0x00000000        0xa CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .text.gpio_init_mask
@@ -492,28 +494,8 @@ Discarded input sections
  .bss           0x00000000        0x0 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
  .text.uart_deinit
                 0x00000000       0x20 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .text.uart_set_baudrate
-                0x00000000       0x5c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .text.uart_set_translate_crlf
-                0x00000000       0x28 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .text.uart_init
-                0x00000000       0x80 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
  .text.uart_is_readable_within_us
                 0x00000000       0x20 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .bss.uart_char_to_line_feed
-                0x00000000        0x4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_info    0x00000000      0xb65 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_abbrev  0x00000000      0x2d2 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_loc     0x00000000      0x533 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_aranges
-                0x00000000       0x40 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_ranges  0x00000000       0xf8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_line    0x00000000      0x754 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_str     0x00000000      0x54a CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .comment       0x00000000       0x4a CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_frame   0x00000000       0x78 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .ARM.attributes
-                0x00000000       0x2c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
  .text          0x00000000        0x0 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
  .data          0x00000000        0x0 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
  .bss           0x00000000        0x0 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
@@ -1099,12 +1081,8 @@ Discarded input sections
  .text._lseek   0x00000000        0x6 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text._fstat   0x00000000        0x6 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text._isatty  0x00000000        0xc CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .text.stdio_set_driver_enabled
-                0x00000000       0x2c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.puts_raw
                 0x00000000       0x1e CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .text.stdio_init_all
-                0x00000000        0xa CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .rodata.__wrap_getchar.str1.4
                 0x00000000       0x50 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.__wrap_getchar
@@ -1126,28 +1104,10 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .data          0x00000000        0x0 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .bss           0x00000000        0x0 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .text.stdio_uart_out_chars
-                0x00000000       0x74 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .text.stdio_uart_in_chars
-                0x00000000       0x80 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .text.on_uart_rx
-                0x00000000       0x28 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .text.stdio_uart_set_chars_available_callback
-                0x00000000       0x8c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .text.stdio_uart_init_full
-                0x00000000       0x44 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .text.stdio_uart_init
-                0x00000000       0x28 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdout_uart_init
                 0x00000000       0x28 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdin_uart_init
                 0x00000000       0x28 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .rodata.str1.4
-                0x00000000       0x2c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .binary_info.__bi_ptr33
-                0x00000000        0x4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .binary_info.__bi_ptr34
-                0x00000000        0x4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .binary_info.__bi_ptr54
                 0x00000000        0x4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .binary_info.__bi_ptr58
@@ -1156,18 +1116,6 @@ Discarded input sections
                 0x00000000        0x4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .binary_info.__bi_ptr70
                 0x00000000        0x4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .bss.chars_available_callback
-                0x00000000        0x4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .bss.chars_available_param
-                0x00000000        0x4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .bss.uart_instance
-                0x00000000        0x4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .data.stdio_uart
-                0x00000000       0x18 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .rodata.__bi_33.4
-                0x00000000        0xc CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .rodata.__bi_34.5
-                0x00000000        0x8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.__bi_54.2
                 0x00000000        0x8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.__bi_58.3
@@ -1176,31 +1124,15 @@ Discarded input sections
                 0x00000000        0x8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.__bi_70.1
                 0x00000000        0xc CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .debug_info    0x00000000     0x1044 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .debug_abbrev  0x00000000      0x3e8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .debug_loc     0x00000000      0x888 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .debug_aranges
-                0x00000000       0x58 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .debug_ranges  0x00000000      0x2b0 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .debug_line    0x00000000      0xac5 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .debug_str     0x00000000      0x8cb CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .comment       0x00000000       0x4a CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .debug_frame   0x00000000       0xe8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .ARM.attributes
-                0x00000000       0x2c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text          0x00000000        0x0 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
  .data          0x00000000        0x0 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
  .bss           0x00000000        0x0 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
- .text.i2c_write_blocking_internal
-                0x00000000      0x140 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
  .text.i2c_read_blocking_internal
                 0x00000000       0xe6 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
  .text.i2c_deinit
                 0x00000000       0x1c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
  .text.i2c_set_slave_mode
                 0x00000000       0x48 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
- .text.i2c_write_blocking
-                0x00000000       0x18 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
  .text.i2c_write_blocking_until
                 0x00000000       0x3e CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
  .text.i2c_write_timeout_per_char_us
@@ -1211,8 +1143,6 @@ Discarded input sections
                 0x00000000       0x3e CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
  .text.i2c_read_timeout_per_char_us
                 0x00000000       0x3e CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
- .data.i2c1_inst
-                0x00000000        0x8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
  .text          0x00000000        0x0 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
  .data          0x00000000        0x0 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
  .bss           0x00000000        0x0 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
@@ -1248,9 +1178,9 @@ Discarded input sections
  .debug_frame   0x00000000      0x12c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
- .text          0x00000000        0x0 C:\Users\nasim\AppData\Local\Temp\ccUcMXtg.o
- .data          0x00000000        0x0 C:\Users\nasim\AppData\Local\Temp\ccUcMXtg.o
- .bss           0x00000000        0x0 C:\Users\nasim\AppData\Local\Temp\ccUcMXtg.o
+ .text          0x00000000        0x0 C:\Users\nasim\AppData\Local\Temp\cc6ZTwvk.o
+ .data          0x00000000        0x0 C:\Users\nasim\AppData\Local\Temp\cc6ZTwvk.o
+ .bss           0x00000000        0x0 C:\Users\nasim\AppData\Local\Temp\cc6ZTwvk.o
  .data          0x00000000        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-calloc.o)
@@ -1466,11 +1396,11 @@ LOAD c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../
 .boot2          0x10000000      0x100
                 0x10000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\nasim\AppData\Local\Temp\ccUcMXtg.o
+ .boot2         0x10000000      0x100 C:\Users\nasim\AppData\Local\Temp\cc6ZTwvk.o
                 0x10000100                __boot2_end__ = .
                 0x00000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x10000100     0x4338
+.text           0x10000100     0x4890
                 0x10000100                __logical_binary_start = .
  *(.vectors)
  .vectors       0x10000100       0xd4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1531,375 +1461,421 @@ LOAD c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../
                 0x100002b8                _init
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .text*)
  .text          0x100002bc       0x48 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
- .text.main     0x10000304       0x40 CMakeFiles/ad5694r.dir/ad5694r.cpp.obj
-                0x10000304                main
+ .text._ZN6AD569613setPowerStateEhhhh
+                0x10000304       0x3c CMakeFiles/ad5694r.dir/ad5694r.cpp.obj
+                0x10000304                AD5696::setPowerState(unsigned char, unsigned char, unsigned char, unsigned char)
+ .text._ZN6AD569619internalRefDisabledEb
+                0x10000340       0x24 CMakeFiles/ad5694r.dir/ad5694r.cpp.obj
+                0x10000340                AD5696::internalRefDisabled(bool)
+ .text.main     0x10000364       0x78 CMakeFiles/ad5694r.dir/ad5694r.cpp.obj
+                0x10000364                main
  .text.gpio_set_function
-                0x10000344       0x30 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10000344                gpio_set_function
+                0x100003dc       0x30 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x100003dc                gpio_set_function
  .text.gpio_set_pulls
-                0x10000374       0x34 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10000374                gpio_set_pulls
+                0x1000040c       0x34 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x1000040c                gpio_set_pulls
+ .text.gpio_init
+                0x10000440       0x16 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10000440                gpio_init
+ *fill*         0x10000456        0x2 
  .text.running_on_fpga
-                0x100003a8       0x14 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-                0x100003a8                running_on_fpga
+                0x10000458       0x14 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                0x10000458                running_on_fpga
  .text.hw_claim_lock
-                0x100003bc       0x18 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x100003bc                hw_claim_lock
+                0x1000046c       0x18 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x1000046c                hw_claim_lock
  .text.hw_claim_unlock
-                0x100003d4       0x14 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x100003d4                hw_claim_unlock
+                0x10000484       0x14 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x10000484                hw_claim_unlock
  .text.hw_claim_or_assert
-                0x100003e8       0x32 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x100003e8                hw_claim_or_assert
- *fill*         0x1000041a        0x2 
+                0x10000498       0x32 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x10000498                hw_claim_or_assert
+ *fill*         0x100004ca        0x2 
  .text.spin_locks_reset
-                0x1000041c       0x20 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x1000041c                spin_locks_reset
+                0x100004cc       0x20 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x100004cc                spin_locks_reset
  .text.next_striped_spin_lock_num
-                0x1000043c       0x1c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x1000043c                next_striped_spin_lock_num
+                0x100004ec       0x1c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x100004ec                next_striped_spin_lock_num
  .text.set_raw_irq_handler_and_unlock
-                0x10000458       0x28 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000508       0x28 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .text.make_branch
-                0x10000480       0x48 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000530       0x48 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .text.insert_branch_and_link
-                0x100004c8       0x40 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000578       0x40 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .text.irq_is_enabled
-                0x10000508       0x18 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000508                irq_is_enabled
+                0x100005b8       0x18 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100005b8                irq_is_enabled
  .text.irq_set_mask_enabled
-                0x10000520       0x20 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000520                irq_set_mask_enabled
+                0x100005d0       0x20 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100005d0                irq_set_mask_enabled
  .text.irq_set_enabled
-                0x10000540        0xe CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000540                irq_set_enabled
- *fill*         0x1000054e        0x2 
+                0x100005f0        0xe CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100005f0                irq_set_enabled
+ *fill*         0x100005fe        0x2 
  .text.irq_get_vtable_handler
-                0x10000550       0x10 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000550                irq_get_vtable_handler
+                0x10000600       0x10 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000600                irq_get_vtable_handler
  .text.irq_set_exclusive_handler
-                0x10000560       0x54 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000560                irq_set_exclusive_handler
+                0x10000610       0x54 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000610                irq_set_exclusive_handler
  .text.irq_remove_handler
-                0x100005b4      0x1ac CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100005b4                irq_remove_handler
+                0x10000664      0x1ac CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000664                irq_remove_handler
  .text.irq_add_tail_to_free_list
-                0x10000760       0xf0 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000760                irq_add_tail_to_free_list
+                0x10000810       0xf0 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000810                irq_add_tail_to_free_list
  .text.irq_init_priorities
-                0x10000850       0x1c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000850                irq_init_priorities
+                0x10000900       0x1c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000900                irq_init_priorities
  .text.lock_init
-                0x1000086c       0x10 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-                0x1000086c                lock_init
+                0x1000091c       0x10 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x1000091c                lock_init
  .text.mutex_init
-                0x1000087c       0x1a CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x1000087c                mutex_init
+                0x1000092c       0x1a CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x1000092c                mutex_init
  .text.recursive_mutex_init
-                0x10000896       0x1e CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x10000896                recursive_mutex_init
+                0x10000946       0x1e CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x10000946                recursive_mutex_init
  .text.alarm_pool_post_alloc_init
-                0x100008b4       0x40 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000964       0x40 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.sleep_until_callback
-                0x100008f4       0x30 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100009a4       0x30 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.timer_pool_entry_comparator
-                0x10000924       0x7c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000924                timer_pool_entry_comparator
+                0x100009d4       0x7c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100009d4                timer_pool_entry_comparator
  .text.ph_add_child_node
-                0x100009a0       0xa4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000a50       0xa4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.ph_merge_nodes
-                0x10000a44       0x3e CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10000a82        0x2 
+                0x10000af4       0x3e CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10000b32        0x2 
  .text.add_alarm_under_lock
-                0x10000a84      0x174 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000b34      0x174 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_alarm_callback
-                0x10000bf8      0x33c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000ca8      0x33c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_init_default
-                0x10000f34       0x40 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000f34                alarm_pool_init_default
+                0x10000fe4       0x40 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000fe4                alarm_pool_init_default
  .text.alarm_pool_get_default
-                0x10000f74       0x2c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000f74                alarm_pool_get_default
+                0x10001024       0x2c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001024                alarm_pool_get_default
  .text.alarm_pool_add_alarm_at
-                0x10000fa0      0x168 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000fa0                alarm_pool_add_alarm_at
+                0x10001050      0x168 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001050                alarm_pool_add_alarm_at
  .text.alarm_pool_cancel_alarm
-                0x10001108       0xf0 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001108                alarm_pool_cancel_alarm
+                0x100011b8       0xf0 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100011b8                alarm_pool_cancel_alarm
  .text.sleep_until
-                0x100011f8       0xfc CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x100011f8                sleep_until
+                0x100012a8       0xfc CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100012a8                sleep_until
  .text.sleep_us
-                0x100012f4       0x58 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x100012f4                sleep_us
+                0x100013a4       0x58 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100013a4                sleep_us
  .text.sleep_ms
-                0x1000134c       0x14 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x1000134c                sleep_ms
+                0x100013fc       0x14 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100013fc                sleep_ms
  .text.best_effort_wfe_or_timeout
-                0x10001360       0xac CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001360                best_effort_wfe_or_timeout
+                0x10001410       0xac CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001410                best_effort_wfe_or_timeout
  .text.hardware_alarm_irq_handler
-                0x1000140c       0x90 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100014bc       0x90 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text.hardware_alarm_claim
-                0x1000149c       0x18 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x1000149c                hardware_alarm_claim
+                0x1000154c       0x18 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x1000154c                hardware_alarm_claim
  .text.time_us_64
-                0x100014b4       0x18 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x100014b4                time_us_64
+                0x10001564       0x18 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001564                time_us_64
  .text.busy_wait_until
-                0x100014cc       0x28 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x100014cc                busy_wait_until
+                0x1000157c       0x28 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x1000157c                busy_wait_until
  .text.hardware_alarm_set_callback
-                0x100014f4       0x90 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x100014f4                hardware_alarm_set_callback
+                0x100015a4       0x90 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100015a4                hardware_alarm_set_callback
  .text.hardware_alarm_set_target
-                0x10001584       0xe8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001584                hardware_alarm_set_target
+                0x10001634       0xe8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001634                hardware_alarm_set_target
  .text.hardware_alarm_cancel
-                0x1000166c       0x40 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x1000166c                hardware_alarm_cancel
+                0x1000171c       0x40 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x1000171c                hardware_alarm_cancel
  .text.ph_add_child_node
-                0x100016ac       0xa4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x1000175c       0xa4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_merge_nodes
-                0x10001750       0x3e CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x1000178e        0x2 
+                0x10001800       0x3e CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x1000183e        0x2 
  .text.ph_clear
-                0x10001790       0x70 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001790                ph_clear
+                0x10001840       0x70 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001840                ph_clear
  .text.ph_post_alloc_init
-                0x10001800        0xe CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001800                ph_post_alloc_init
- *fill*         0x1000180e        0x2 
+                0x100018b0        0xe CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x100018b0                ph_post_alloc_init
+ *fill*         0x100018be        0x2 
  .text.ph_merge_two_pass
-                0x10001810       0xa8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001810                ph_merge_two_pass
+                0x100018c0       0xa8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x100018c0                ph_merge_two_pass
  .text.ph_remove_any_head
-                0x100018b8      0x128 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001968      0x128 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_remove_head
-                0x100019e0       0x14 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x100019e0                ph_remove_head
+                0x10001a90       0x14 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001a90                ph_remove_head
  .text.ph_remove_and_free_node
-                0x100019f4       0xf8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x100019f4                ph_remove_and_free_node
+                0x10001aa4       0xf8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001aa4                ph_remove_and_free_node
+ .text.uart_set_baudrate
+                0x10001b9c       0x5c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x10001b9c                uart_set_baudrate
+ .text.uart_set_translate_crlf
+                0x10001bf8       0x28 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x10001bf8                uart_set_translate_crlf
+ .text.uart_init
+                0x10001c20       0x80 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x10001c20                uart_init
  .text.clock_configure
-                0x10001aec      0x104 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10001aec                clock_configure
+                0x10001ca0      0x104 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10001ca0                clock_configure
  .text.clocks_init
-                0x10001bf0      0x100 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10001bf0                clocks_init
+                0x10001da4      0x100 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10001da4                clocks_init
  .text.clock_get_hz
-                0x10001cf0        0xc CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10001cf0                clock_get_hz
+                0x10001ea4        0xc CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10001ea4                clock_get_hz
  .text.pll_init
-                0x10001cfc      0x12c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-                0x10001cfc                pll_init
+                0x10001eb0      0x12c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x10001eb0                pll_init
  .text.watchdog_start_tick
-                0x10001e28       0x10 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x10001e28                watchdog_start_tick
+                0x10001fdc       0x10 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x10001fdc                watchdog_start_tick
  .text.xosc_init
-                0x10001e38       0x28 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x10001e38                xosc_init
- .text._exit    0x10001e60        0x4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001e60                _exit
- .text.exit     0x10001e64        0x6 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001e64                exit
- *fill*         0x10001e6a        0x2 
+                0x10001fec       0x28 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x10001fec                xosc_init
+ .text._exit    0x10002014        0x4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10002014                _exit
+ .text.exit     0x10002018        0x6 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10002018                exit
+ *fill*         0x1000201e        0x2 
  .text.__assert_func
-                0x10001e6c       0x3c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001e6c                __assert_func
+                0x10002020       0x3c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10002020                __assert_func
  .text.runtime_init
-                0x10001ea8       0xf8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001ea8                runtime_init
- .text.panic    0x10001fa0       0x30 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001fa0                panic
+                0x1000205c       0xf8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x1000205c                runtime_init
+ .text.panic    0x10002154       0x30 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10002154                panic
  .text._out_null
-                0x10001fd0        0x2 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002184        0x2 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_fct
-                0x10001fd2        0xe CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._atoi    0x10001fe0       0x24 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002186        0xe CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._atoi    0x10002194       0x24 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_rev
-                0x10002004       0xae CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100021b8       0xae CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_format
-                0x100020b2      0x112 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002266      0x112 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_long
-                0x100021c4       0xbc CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002378       0xbc CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_long_long
-                0x10002280       0xe2 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x10002362        0x2 
- .text._etoa    0x10002364      0x414 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._ftoa    0x10002778      0x354 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002434       0xe2 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x10002516        0x2 
+ .text._etoa    0x10002518      0x414 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._ftoa    0x1000292c      0x354 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._vsnprintf
-                0x10002acc      0x624 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002c80      0x624 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.vfctprintf
-                0x100030f0       0x20 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x100030f0                vfctprintf
- .text          0x10003110       0x10 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x100032a4       0x20 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100032a4                vfctprintf
+ .text          0x100032c4       0x10 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.rom_func_lookup
-                0x10003120       0x10 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10003120                rom_func_lookup
+                0x100032d4       0x10 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x100032d4                rom_func_lookup
  .text.rom_data_lookup
-                0x10003130       0x10 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10003130                rom_data_lookup
+                0x100032e4       0x10 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x100032e4                rom_data_lookup
  .text.rom_funcs_lookup
-                0x10003140       0x36 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10003140                rom_funcs_lookup
- *fill*         0x10003176        0x2 
+                0x100032f4       0x36 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x100032f4                rom_funcs_lookup
+ *fill*         0x1000332a        0x2 
  .text.__wrap___aeabi_idiv
-                0x10003178       0x50 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x10003178                __wrap___aeabi_idivmod
-                0x10003178                divmod_s32s32
-                0x10003178                div_s32s32
-                0x10003178                __wrap___aeabi_idiv
-                0x10003180                divmod_s32s32_unsafe
-                0x100031ac                divmod_s32s32_savestate
+                0x1000332c       0x50 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x1000332c                __wrap___aeabi_idivmod
+                0x1000332c                divmod_s32s32
+                0x1000332c                div_s32s32
+                0x1000332c                __wrap___aeabi_idiv
+                0x10003334                divmod_s32s32_unsafe
+                0x10003360                divmod_s32s32_savestate
  .text.__wrap___aeabi_uidiv
-                0x100031c8       0x4c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x100031c8                __wrap___aeabi_uidiv
-                0x100031c8                __wrap___aeabi_uidivmod
-                0x100031c8                div_u32u32
-                0x100031c8                divmod_u32u32
-                0x100031d0                divmod_u32u32_unsafe
-                0x100031f8                divmod_u32u32_savestate
+                0x1000337c       0x4c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x1000337c                __wrap___aeabi_uidiv
+                0x1000337c                __wrap___aeabi_uidivmod
+                0x1000337c                div_u32u32
+                0x1000337c                divmod_u32u32
+                0x10003384                divmod_u32u32_unsafe
+                0x100033ac                divmod_u32u32_savestate
  .text.__wrap___aeabi_ldiv
-                0x10003214      0x424 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x10003214                div_s64s64
-                0x10003214                divmod_s64s64
-                0x10003214                __wrap___aeabi_ldivmod
-                0x10003244                divmod_u64u64
-                0x10003244                div_u64u64
-                0x10003244                __wrap___aeabi_uldivmod
-                0x10003254                divmod_u64u64_savestate
-                0x10003274                divmod_s64s64_unsafe
-                0x100032fc                divmod_u64u64_unsafe
+                0x100033c8      0x424 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x100033c8                div_s64s64
+                0x100033c8                divmod_s64s64
+                0x100033c8                __wrap___aeabi_ldivmod
+                0x100033f8                divmod_u64u64
+                0x100033f8                div_u64u64
+                0x100033f8                __wrap___aeabi_uldivmod
+                0x10003408                divmod_u64u64_savestate
+                0x10003428                divmod_s64s64_unsafe
+                0x100034b0                divmod_u64u64_unsafe
  .text.__wrap___aeabi_darithmetic
-                0x10003638       0x80 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003638                __wrap___aeabi_drsub
-                0x1000363e                __wrap___aeabi_dsub
-                0x10003650                __wrap___aeabi_dadd
-                0x10003662                __wrap___aeabi_ddiv
-                0x1000369e                __wrap___aeabi_dmul
+                0x100037ec       0x80 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x100037ec                __wrap___aeabi_drsub
+                0x100037f2                __wrap___aeabi_dsub
+                0x10003804                __wrap___aeabi_dadd
+                0x10003816                __wrap___aeabi_ddiv
+                0x10003852                __wrap___aeabi_dmul
  .text.__wrap___aeabi_cdcmple
-                0x100036b8       0x6c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x100036b8                __wrap___aeabi_cdrcmple
-                0x100036c8                __wrap___aeabi_cdcmpeq
-                0x100036c8                __wrap___aeabi_cdcmple
+                0x1000386c       0x6c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x1000386c                __wrap___aeabi_cdrcmple
+                0x1000387c                __wrap___aeabi_cdcmpeq
+                0x1000387c                __wrap___aeabi_cdcmple
  .text.__wrap___aeabi_dcmplt
-                0x10003724        0xc CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003724                __wrap___aeabi_dcmplt
+                0x100038d8        0xc CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x100038d8                __wrap___aeabi_dcmplt
  .text.__wrap___aeabi_dcmple
-                0x10003730       0x10 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003730                __wrap___aeabi_dcmple
+                0x100038e4       0x10 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x100038e4                __wrap___aeabi_dcmple
  .text.__wrap___aeabi_dcmpge
-                0x10003740       0x10 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003740                __wrap___aeabi_dcmpge
+                0x100038f4       0x10 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x100038f4                __wrap___aeabi_dcmpge
  .text.__wrap___aeabi_dcmpgt
-                0x10003750        0xa CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003750                __wrap___aeabi_dcmpgt
+                0x10003904        0xa CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003904                __wrap___aeabi_dcmpgt
  .text.__wrap___aeabi_dcmpun
-                0x1000375a       0x1c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x1000375a                __wrap___aeabi_dcmpun
- *fill*         0x10003776        0x2 
+                0x1000390e       0x1c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x1000390e                __wrap___aeabi_dcmpun
+ *fill*         0x1000392a        0x2 
  .text.__wrap___aeabi_i2d
-                0x10003778       0x38 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003778                __wrap___aeabi_ui2d
-                0x10003780                __wrap___aeabi_i2d
+                0x1000392c       0x38 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x1000392c                __wrap___aeabi_ui2d
+                0x10003934                __wrap___aeabi_i2d
  .text.__wrap___aeabi_d2iz
-                0x100037b0       0x48 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x100037b0                double2int_z
-                0x100037b0                __wrap___aeabi_d2iz
+                0x10003964       0x48 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003964                double2int_z
+                0x10003964                __wrap___aeabi_d2iz
  .text.__wrap___aeabi_d2uiz
-                0x100037f8       0x18 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x100037f8                __wrap___aeabi_d2uiz
-                0x100037f8                double2uint
+                0x100039ac       0x18 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x100039ac                __wrap___aeabi_d2uiz
+                0x100039ac                double2uint
  .text.__aeabi_double_init
-                0x10003810       0xc8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x10003810                __aeabi_double_init
+                0x100039c4       0xc8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x100039c4                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x100038d8       0x34 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x100038d8                double_table_shim_on_use_helper
+                0x10003a8c       0x34 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003a8c                double_table_shim_on_use_helper
  .text.__wrap___aeabi_dsub
-                0x1000390c       0x10 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x1000390c                drsub_shim
-                0x10003912                dsub_shim
+                0x10003ac0       0x10 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003ac0                drsub_shim
+                0x10003ac6                dsub_shim
  .text.dadd_shim
-                0x1000391c      0x15c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x1000391c                dadd_shim
+                0x10003ad0      0x15c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003ad0                dadd_shim
  .text.dmul_shim
-                0x10003a78      0x15c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003a78                dmul_shim
+                0x10003c2c      0x15c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003c2c                dmul_shim
  .text.ddiv_shim
-                0x10003bd4      0x1b0 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003bd4                ddiv_shim
+                0x10003d88      0x1b0 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003d88                ddiv_shim
  .text.double2uint_shim
-                0x10003d84        0xe CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003d84                double2uint_shim
-                0x10003d86                double2ufix_shim
- *fill*         0x10003d92        0x2 
+                0x10003f38        0xe CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003f38                double2uint_shim
+                0x10003f3a                double2ufix_shim
+ *fill*         0x10003f46        0x2 
  .text.double2uint64_shim
-                0x10003d94       0x70 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003d94                double2uint64_shim
-                0x10003d96                double2ufix64_shim
-                0x10003db6                d2fix_a
+                0x10003f48       0x70 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003f48                double2uint64_shim
+                0x10003f4a                double2ufix64_shim
+                0x10003f6a                d2fix_a
  .text.dunpacks
-                0x10003e04       0x3c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003e04                dunpacks
+                0x10003fb8       0x3c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003fb8                dunpacks
  .text.__aeabi_lmul
-                0x10003e40       0x32 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                0x10003e40                __wrap___aeabi_lmul
- *fill*         0x10003e72        0x2 
+                0x10003ff4       0x32 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x10003ff4                __wrap___aeabi_lmul
+ *fill*         0x10004026        0x2 
  .text.__aeabi_float_init
-                0x10003e74       0xfc CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x10003e74                __aeabi_float_init
+                0x10004028       0xfc CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x10004028                __aeabi_float_init
  .text.float_table_shim_on_use_helper
-                0x10003f70       0x34 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-                0x10003f70                float_table_shim_on_use_helper
- .text          0x10003fa4       0x10 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10003fa4                __aeabi_mem_init
- .text.memcpy   0x10003fb4        0xc CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10003fb4                __wrap_memcpy
-                0x10003fb4                __wrap___aeabi_memcpy
+                0x10004124       0x34 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x10004124                float_table_shim_on_use_helper
+ .text          0x10004158       0x10 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10004158                __aeabi_mem_init
+ .text.memcpy   0x10004168        0xc CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10004168                __wrap_memcpy
+                0x10004168                __wrap___aeabi_memcpy
  .text.stdio_out_chars_no_crlf
-                0x10003fc0        0xe CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x10003fce        0x2 
+                0x10004174        0xe CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x10004182        0x2 
  .text.stdio_out_chars_crlf
-                0x10003fd0       0x80 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004184       0x80 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_stack_buffer_flush
-                0x10004050       0x44 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004204       0x44 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_buffered_printer
-                0x10004094       0x20 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004248       0x20 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdout_serialize_begin
-                0x100040b4       0x5c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x100040b4                stdout_serialize_begin
+                0x10004268       0x5c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004268                stdout_serialize_begin
  .text.stdout_serialize_end
-                0x10004110       0x10 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10004110                stdout_serialize_end
+                0x100042c4       0x10 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100042c4                stdout_serialize_end
  .text.stdio_put_string
-                0x10004120       0x98 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100042d4       0x98 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .text.stdio_set_driver_enabled
+                0x1000436c       0x2c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x1000436c                stdio_set_driver_enabled
  .text.stdio_flush
-                0x100041b8       0x20 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x100041b8                stdio_flush
+                0x10004398       0x20 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004398                stdio_flush
  .text.__wrap_puts
-                0x100041d8       0x1e CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x100041d8                __wrap_puts
- *fill*         0x100041f6        0x2 
+                0x100043b8       0x1e CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100043b8                __wrap_puts
+ *fill*         0x100043d6        0x2 
  .text.__wrap_vprintf
-                0x100041f8       0x40 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x100041f8                __wrap_vprintf
+                0x100043d8       0x40 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100043d8                __wrap_vprintf
  .text.__wrap_printf
-                0x10004238       0x18 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10004238                __wrap_printf
+                0x10004418       0x18 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004418                __wrap_printf
+ .text.stdio_init_all
+                0x10004430        0xa CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004430                stdio_init_all
+ *fill*         0x1000443a        0x2 
+ .text.stdio_uart_out_chars
+                0x1000443c       0x74 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .text.stdio_uart_in_chars
+                0x100044b0       0x80 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x100044b0                stdio_uart_in_chars
+ .text.on_uart_rx
+                0x10004530       0x28 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .text.stdio_uart_set_chars_available_callback
+                0x10004558       0x8c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .text.stdio_uart_init_full
+                0x100045e4       0x44 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x100045e4                stdio_uart_init_full
+ .text.stdio_uart_init
+                0x10004628       0x28 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10004628                stdio_uart_init
+ .text.i2c_write_blocking_internal
+                0x10004650      0x140 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
  .text.i2c_set_baudrate
-                0x10004250       0xf0 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x10004250                i2c_set_baudrate
+                0x10004790       0xf0 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x10004790                i2c_set_baudrate
  .text.i2c_init
-                0x10004340       0x58 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x10004340                i2c_init
- .text.strlen   0x10004398       0x5c c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-strlen-stub.o)
-                0x10004398                strlen
+                0x10004880       0x58 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x10004880                i2c_init
+ .text.i2c_write_blocking
+                0x100048d8       0x18 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x100048d8                i2c_write_blocking
+ .text.strlen   0x100048f0       0x5c c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-strlen-stub.o)
+                0x100048f0                strlen
  *(.fini)
- .fini          0x100043f4        0x4 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
-                0x100043f4                _fini
- .fini.__stub   0x100043f8       0x40 linker stubs
+ .fini          0x1000494c        0x4 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
+                0x1000494c                _fini
+ .fini.__stub   0x10004950       0x40 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -1911,250 +1887,260 @@ LOAD c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.eh_frame*)
- .eh_frame      0x10004438        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x10004438                . = ALIGN (0x4)
+ .eh_frame      0x10004990        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x10004990                . = ALIGN (0x4)
 
-.glue_7         0x10004438        0x0
- .glue_7        0x10004438        0x0 linker stubs
+.glue_7         0x10004990        0x0
+ .glue_7        0x10004990        0x0 linker stubs
 
-.glue_7t        0x10004438        0x0
- .glue_7t       0x10004438        0x0 linker stubs
+.glue_7t        0x10004990        0x0
+ .glue_7t       0x10004990        0x0 linker stubs
 
-.vfp11_veneer   0x10004438        0x0
- .vfp11_veneer  0x10004438        0x0 linker stubs
+.vfp11_veneer   0x10004990        0x0
+ .vfp11_veneer  0x10004990        0x0 linker stubs
 
-.v4_bx          0x10004438        0x0
- .v4_bx         0x10004438        0x0 linker stubs
+.v4_bx          0x10004990        0x0
+ .v4_bx         0x10004990        0x0 linker stubs
 
-.iplt           0x10004438        0x0
- .iplt          0x10004438        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x10004990        0x0
+ .iplt          0x10004990        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x10004438      0xfb8
+.rodata         0x10004990      0xff8
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
  .rodata.make_branch.str1.4
-                0x10004438       0x74 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10004990       0x74 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .rodata.insert_branch_and_link.str1.4
-                0x100044ac       0x10 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10004a04       0x10 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .rodata.irq_set_exclusive_handler.str1.4
-                0x100044bc       0x36 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x100044f2        0x2 
+                0x10004a14       0x36 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x10004a4a        0x2 
  .rodata.irq_add_shared_handler.str1.4
-                0x100044f4       0xd9 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x100045cd        0x3 
+                0x10004a4c       0xd9 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x10004b25        0x3 
  .rodata.irq_remove_handler.str1.4
-                0x100045d0       0x3a CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x1000460a        0x2 
+                0x10004b28       0x3a CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x10004b62        0x2 
  .rodata.irq_add_tail_to_free_list.str1.4
-                0x1000460c       0x3a CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x10004646        0x2 
+                0x10004b64       0x3a CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x10004b9e        0x2 
  .rodata.__func__.0
-                0x10004648       0x1a CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x10004662        0x2 
+                0x10004ba0       0x1a CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x10004bba        0x2 
  .rodata.__func__.1
-                0x10004664       0x17 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x1000467b        0x1 
+                0x10004bbc       0x17 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x10004bd3        0x1 
  .rodata.__func__.2
-                0x1000467c       0x13 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x1000468f        0x1 
+                0x10004bd4       0x13 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x10004be7        0x1 
  .rodata.__func__.3
-                0x10004690        0xc CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10004be8        0xc CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .rodata.__func__.4
-                0x1000469c        0xf CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x100046ab        0x1 
+                0x10004bf4        0xf CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x10004c03        0x1 
  .rodata.__func__.6
-                0x100046ac       0x1a CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x100046c6        0x2 
+                0x10004c04       0x1a CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x10004c1e        0x2 
  .rodata.str1.4
-                0x100046c8       0xf9 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- *fill*         0x100047c1        0x3 
+                0x10004c20       0xf9 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ *fill*         0x10004d19        0x3 
  .rodata.__func__.1
-                0x100047c4        0xb CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- *fill*         0x100047cf        0x1 
+                0x10004d1c        0xb CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ *fill*         0x10004d27        0x1 
  .rodata.__func__.3
-                0x100047d0       0x18 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x10004d28       0x18 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
  .rodata.repeating_timer_callback.str1.4
-                0x100047e8       0x52 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x1000483a        0x2 
+                0x10004d40       0x52 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004d92        0x2 
  .rodata.timer_pool_entry_comparator.str1.4
-                0x1000483c       0x22 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x1000485e        0x2 
+                0x10004d94       0x22 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004db6        0x2 
  .rodata.ph_add_child_node.str1.4
-                0x10004860       0x9e CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x100048fe        0x2 
+                0x10004db8       0x9e CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004e56        0x2 
  .rodata.add_alarm_under_lock.str1.4
-                0x10004900       0x28 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10004e58       0x28 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
                                  0x2b (size before relaxing)
  .rodata.alarm_pool_alarm_callback.str1.4
-                0x10004928       0x98 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10004e80       0x98 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
                                 0x100 (size before relaxing)
  .rodata.alarm_pool_get_default.str1.4
-                0x100049c0       0x21 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x100049e1        0x3 
+                0x10004f18       0x21 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004f39        0x3 
  .rodata.alarm_pool_cancel_alarm.str1.4
-                0x100049e4       0x27 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004a0b        0x1 
+                0x10004f3c       0x27 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004f63        0x1 
  .rodata.sleep_until.str1.4
-                0x10004a0c       0x4d CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004a59        0x3 
+                0x10004f64       0x4d CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004fb1        0x3 
  .rodata.__func__.1
-                0x10004a5c       0x18 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10004fb4       0x18 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
  .rodata.__func__.10
-                0x10004a74       0x15 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004a89        0x3 
+                0x10004fcc       0x15 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004fe1        0x3 
  .rodata.__func__.11
-                0x10004a8c       0x1a CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004aa6        0x2 
+                0x10004fe4       0x1a CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004ffe        0x2 
  .rodata.__func__.12
-                0x10004aa8        0xa CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004ab2        0x2 
+                0x10005000        0xa CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x1000500a        0x2 
  .rodata.__func__.3
-                0x10004ab4       0x17 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004acb        0x1 
+                0x1000500c       0x17 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10005023        0x1 
  .rodata.__func__.4
-                0x10004acc       0x12 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004ade        0x2 
+                0x10005024       0x12 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10005036        0x2 
  .rodata.__func__.5
-                0x10004ae0        0xd CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004aed        0x3 
+                0x10005038        0xd CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10005045        0x3 
  .rodata.__func__.6
-                0x10004af0       0x12 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004b02        0x2 
+                0x10005048       0x12 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x1000505a        0x2 
  .rodata.__func__.7
-                0x10004b04        0xf CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004b13        0x1 
+                0x1000505c        0xf CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x1000506b        0x1 
  .rodata.__func__.8
-                0x10004b14        0xc CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x1000506c        0xc CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
  .rodata.__func__.9
-                0x10004b20       0x15 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004b35        0x3 
+                0x10005078       0x15 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x1000508d        0x3 
  .rodata.hardware_alarm_claim.str1.4
-                0x10004b38       0x22 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x10004b5a        0x2 
+                0x10005090       0x22 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x100050b2        0x2 
  .rodata.hardware_alarm_set_target.str1.4
-                0x10004b5c       0x6c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100050b4       0x6c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .rodata.__func__.0
-                0x10004bc8       0x1a CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10005120       0x1a CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .rodata.ph_add_child_node.str1.4
-                0x10004be2       0x9e CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x10004be2        0x2 
+                0x1000513a       0x9e CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x1000513a        0x2 
  .rodata.ph_remove_any_head.str1.4
-                0x10004be4       0x94 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x1000513c       0x94 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
                                  0xa8 (size before relaxing)
  .rodata.ph_remove_and_free_node.str1.4
-                0x10004c78       0x1e CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x100051d0       0x1e CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
                                  0x26 (size before relaxing)
- *fill*         0x10004c96        0x2 
+ *fill*         0x100051ee        0x2 
  .rodata.__func__.0
-                0x10004c98       0x18 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x100051f0       0x18 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .rodata.__func__.1
-                0x10004cb0       0x13 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x10004cc3        0x1 
+                0x10005208       0x13 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x1000521b        0x1 
  .rodata.__func__.2
-                0x10004cc4       0x12 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x10004cd6        0x2 
+                0x1000521c       0x12 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x1000522e        0x2 
  .rodata.__func__.3
-                0x10004cd8        0xc CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10005230        0xc CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .rodata.clock_configure.str1.4
-                0x10004ce4       0x5e CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- *fill*         0x10004d42        0x2 
+                0x1000523c       0x5e CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ *fill*         0x1000529a        0x2 
  .rodata.__func__.1
-                0x10004d44       0x10 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x1000529c       0x10 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
  .rodata.pll_init.str1.4
-                0x10004d54      0x127 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- *fill*         0x10004e7b        0x1 
+                0x100052ac      0x127 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ *fill*         0x100053d3        0x1 
  .rodata.__func__.0
-                0x10004e7c        0x9 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- *fill*         0x10004e85        0x3 
+                0x100053d4        0x9 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ *fill*         0x100053dd        0x3 
  .rodata.__assert_func.str1.4
-                0x10004e88       0x3f CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x100053e0       0x3f CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                                  0x43 (size before relaxing)
- *fill*         0x10004ec7        0x1 
+ *fill*         0x1000541f        0x1 
  .rodata.runtime_init.str1.4
-                0x10004ec8       0x68 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10005420       0x68 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata.panic.str1.4
-                0x10004f30       0x12 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x10004f42        0x2 
+                0x10005488       0x12 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ *fill*         0x1000549a        0x2 
  .rodata.__func__.2
-                0x10004f44        0xd CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x10004f51        0x3 
+                0x1000549c        0xd CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ *fill*         0x100054a9        0x3 
  .rodata._ftoa.str1.4
-                0x10004f54       0x15 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x10004f69        0x3 
+                0x100054ac       0x15 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x100054c1        0x3 
  .rodata._vsnprintf
-                0x10004f6c      0x1e0 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x1000514c        0x4 
+                0x100054c4      0x1e0 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x100056a4        0x4 
  .rodata.pow10.0
-                0x10005150       0x50 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100056a8       0x50 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.__aeabi_double_init.str1.4
-                0x100051a0       0xaf CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- *fill*         0x1000524f        0x1 
+                0x100056f8       0xaf CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ *fill*         0x100057a7        0x1 
  .rodata.__func__.0
-                0x10005250       0x14 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x100057a8       0x14 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
  .rodata.__aeabi_float_init.str1.4
-                0x10005264       0x81 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x100057bc       0x81 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
                                  0x85 (size before relaxing)
- *fill*         0x100052e5        0x3 
+ *fill*         0x1000583d        0x3 
  .rodata.__func__.0
-                0x100052e8       0x13 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- *fill*         0x100052fb        0x1 
+                0x10005840       0x13 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ *fill*         0x10005853        0x1 
  .rodata.str1.4
-                0x100052fc       0x3c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10005854       0x3c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_44
-                0x10005338        0xc CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10005890        0xc CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_75
-                0x10005344        0xc CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x1000589c        0xc CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_81
-                0x10005350        0xc CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100058a8        0xc CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.stdout_serialize_begin.str1.4
-                0x1000535c       0x68 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100058b4       0x68 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .rodata.__func__.3
-                0x1000535c       0x15 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x10005371        0x3 
+                0x100058b4       0x15 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x100058c9        0x3 
  .rodata.crlf_str.2
-                0x10005374        0x2 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x10005376        0x2 
+                0x100058cc        0x2 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x100058ce        0x2 
+ .rodata.str1.4
+                0x100058d0       0x2c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .rodata.__bi_33.4
+                0x100058fc        0xc CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .rodata.__bi_34.5
+                0x10005908        0x8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.i2c_set_baudrate.str1.4
-                0x10005378       0x64 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x10005910       0x64 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
  .rodata.__func__.0
-                0x100053dc       0x11 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x100053f0                . = ALIGN (0x4)
- *fill*         0x100053ed        0x3 
+                0x10005974       0x11 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x10005988                . = ALIGN (0x4)
+ *fill*         0x10005985        0x3 
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x100053f0                . = ALIGN (0x4)
+                0x10005988                . = ALIGN (0x4)
 
-.rel.dyn        0x100053f0        0x0
- .rel.iplt      0x100053f0        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+.rel.dyn        0x10005988        0x0
+ .rel.iplt      0x10005988        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x100053f0                __exidx_start = .
+                0x10005988                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x100053f0                __exidx_end = .
-                0x100053f0                . = ALIGN (0x4)
-                0x100053f0                __binary_info_start = .
+                0x10005988                __exidx_end = .
+                0x10005988                . = ALIGN (0x4)
+                0x10005988                __binary_info_start = .
 
-.binary_info    0x100053f0       0x1c
+.binary_info    0x10005988       0x24
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr22
-                0x100053f0        0x4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10005988        0x4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr30
-                0x100053f4        0x4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x1000598c        0x4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr38
-                0x100053f8        0x4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10005990        0x4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr44
-                0x100053fc        0x4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10005994        0x4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr50
-                0x10005400        0x4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10005998        0x4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr75
-                0x10005404        0x4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x1000599c        0x4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr81
-                0x10005408        0x4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100059a0        0x4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  *(.binary_info.*)
-                0x1000540c                __binary_info_end = .
-                0x1000540c                . = ALIGN (0x4)
-                0x1000540c                __etext = .
+ .binary_info.__bi_ptr33
+                0x100059a4        0x4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .binary_info.__bi_ptr34
+                0x100059a8        0x4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x100059ac                __binary_info_end = .
+                0x100059ac                . = ALIGN (0x4)
+                0x100059ac                __etext = .
 
 .ram_vector_table
                 0x20000000       0xc0
@@ -2163,7 +2149,7 @@ LOAD c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../
                 0x20000000       0xc0 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                 0x20000000                ram_vector_table
 
-.data           0x200000c0      0x234 load address 0x1000540c
+.data           0x200000c0      0x254 load address 0x100059ac
                 0x200000c0                __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -2209,112 +2195,127 @@ LOAD c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../
                 0x200002c0       0x10 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
                 0x200002c0                aeabi_mem_funcs
                 0x200002d0                aeabi_mem_funcs_end
+ .data.stdio_uart
+                0x200002d0       0x18 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x200002d0                stdio_uart
  .data.i2c0_inst
-                0x200002d0        0x8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x200002d0                i2c0_inst
-                0x200002d8                . = ALIGN (0x4)
+                0x200002e8        0x8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x200002e8                i2c0_inst
+ .data.i2c1_inst
+                0x200002f0        0x8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x200002f0                i2c1_inst
+                0x200002f8                . = ALIGN (0x4)
  *(.after_data.*)
-                0x200002d8                . = ALIGN (0x4)
-                0x200002d8                PROVIDE (__mutex_array_start = .)
+                0x200002f8                . = ALIGN (0x4)
+                0x200002f8                PROVIDE (__mutex_array_start = .)
  *(SORT_BY_NAME(.mutex_array.*))
  *(.mutex_array)
- .mutex_array   0x200002d8        0x8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x200002e0                PROVIDE (__mutex_array_end = .)
-                0x200002e0                . = ALIGN (0x4)
-                0x200002e0                PROVIDE (__preinit_array_start = .)
+ .mutex_array   0x200002f8        0x8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x20000300                PROVIDE (__mutex_array_end = .)
+                0x20000300                . = ALIGN (0x4)
+                0x20000300                PROVIDE (__preinit_array_start = .)
  *(SORT_BY_NAME(.preinit_array.*))
  .preinit_array.00001
-                0x200002e0        0x4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x20000300        0x4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
  .preinit_array.00010
-                0x200002e4        0x4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x20000304        0x4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .preinit_array.00020
-                0x200002e8        0x4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x20000308        0x4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
  .preinit_array.00020
-                0x200002ec        0x4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x2000030c        0x4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
  *(.preinit_array)
-                0x200002f0                PROVIDE (__preinit_array_end = .)
-                0x200002f0                . = ALIGN (0x4)
-                0x200002f0                PROVIDE (__init_array_start = .)
+                0x20000310                PROVIDE (__preinit_array_end = .)
+                0x20000310                . = ALIGN (0x4)
+                0x20000310                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array)
- .init_array    0x200002f0        0x4 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x200002f4                PROVIDE (__init_array_end = .)
-                0x200002f4                . = ALIGN (0x4)
+ .init_array    0x20000310        0x4 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x20000314                PROVIDE (__init_array_end = .)
+                0x20000314                . = ALIGN (0x4)
                 [!provide]                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array)
                 [!provide]                PROVIDE (__fini_array_end = .)
  *(.jcr)
-                0x200002f4                . = ALIGN (0x4)
-                0x200002f4                __data_end__ = .
+                0x20000314                . = ALIGN (0x4)
+                0x20000314                __data_end__ = .
 
-.igot.plt       0x200002f4        0x0 load address 0x10005640
- .igot.plt      0x200002f4        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+.igot.plt       0x20000314        0x0 load address 0x10005c00
+ .igot.plt      0x20000314        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x200002f4        0x0 load address 0x10005640
-                0x200002f4                . = ALIGN (0x4)
+                0x20000314        0x0 load address 0x10005c00
+                0x20000314                . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.scratch_x      0x20040000        0x0 load address 0x10005640
+.scratch_x      0x20040000        0x0 load address 0x10005c00
                 0x20040000                __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x20040000                . = ALIGN (0x4)
                 0x20040000                __scratch_x_end__ = .
-                0x10005640                __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x10005c00                __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x20041000        0x0 load address 0x10005640
+.scratch_y      0x20041000        0x0 load address 0x10005c00
                 0x20041000                __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x20041000                . = ALIGN (0x4)
                 0x20041000                __scratch_y_end__ = .
-                0x10005640                __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x10005c00                __scratch_y_source__ = LOADADDR (.scratch_y)
 
-.bss            0x200002f8      0x3c8
-                0x200002f8                . = ALIGN (0x4)
-                0x200002f8                __bss_start__ = .
+.bss            0x20000318      0x3d8
+                0x20000318                . = ALIGN (0x4)
+                0x20000318                __bss_start__ = .
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.bss*)))
  .bss.default_alarm_pool_entries
-                0x200002f8      0x100 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
- .bss           0x200003f8       0x1c c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x20000318      0x100 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ .bss           0x20000418       0x1c c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
  .bss.alarm_callbacks
-                0x20000414       0x10 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x20000434       0x10 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .bss.chars_available_callback
+                0x20000444        0x4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .bss.chars_available_param
+                0x20000448        0x4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .bss.configured_freq
-                0x20000424       0x28 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x2000044c       0x28 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
  .bss.default_alarm_pool_entry_ids_high
-                0x2000044c       0x10 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x20000474       0x10 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
  .bss.default_alarm_pool_heap_nodes
-                0x2000045c       0x30 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
- .bss.drivers   0x2000048c        0x4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .bss.filter    0x20000490        0x4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .bss.pools     0x20000494       0x10 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
- .bss.sd_table  0x200004a4      0x100 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x200004a4                sd_table
+                0x20000484       0x30 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ .bss.drivers   0x200004b4        0x4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .bss.filter    0x200004b8        0x4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .bss.pools     0x200004bc       0x10 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ .bss.sd_table  0x200004cc      0x100 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x200004cc                sd_table
  .bss.sf_clz_func
-                0x200005a4        0x4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x200005a4                sf_clz_func
- .bss.sf_table  0x200005a8      0x100 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x200005a8                sf_table
+                0x200005cc        0x4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x200005cc                sf_clz_func
+ .bss.sf_table  0x200005d0      0x100 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x200005d0                sf_table
  .bss.sleep_notifier
-                0x200006a8        0x4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x200006d0        0x4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
  .bss.target_hi
-                0x200006ac       0x10 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .bss.claimed   0x200006bc        0x1 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x200006d4       0x10 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .bss.uart_char_to_line_feed
+                0x200006e4        0x4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x200006e4                uart_char_to_line_feed
+ .bss.uart_instance
+                0x200006e8        0x4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .bss.claimed   0x200006ec        0x1 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .bss.irq_hander_chain_free_slot_head
-                0x200006bd        0x1 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x200006ed        0x1 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .bss.timer_callbacks_pending
-                0x200006be        0x1 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x200006ee        0x1 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  *(COMMON)
-                0x200006c0                . = ALIGN (0x4)
- *fill*         0x200006bf        0x1 
-                0x200006c0                __bss_end__ = .
+                0x200006f0                . = ALIGN (0x4)
+ *fill*         0x200006ef        0x1 
+                0x200006f0                __bss_end__ = .
 
-.heap           0x200006c0      0x800
-                0x200006c0                __end__ = .
-                0x200006c0                end = __end__
+.heap           0x200006f0      0x800
+                0x200006f0                __end__ = .
+                0x200006f0                end = __end__
  *(.heap*)
- .heap          0x200006c0      0x800 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
-                0x20000ec0                __HeapLimit = .
+ .heap          0x200006f0      0x800 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+                0x20000ef0                __HeapLimit = .
 
 .stack1_dummy   0x20040000        0x0
  *(.stack1*)
@@ -2323,8 +2324,8 @@ LOAD c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../
  *(.stack*)
  .stack         0x20041000      0x800 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x10005640        0x0
-                0x10005640                __flash_binary_end = .
+.flash_end      0x10005c00        0x0
+                0x10005c00                __flash_binary_end = .
                 0x20040000                __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x20041000                __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x20042000                __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -2381,7 +2382,7 @@ LOAD CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pic
 LOAD CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 LOAD CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
 LOAD CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
-LOAD C:\Users\nasim\AppData\Local\Temp\ccUcMXtg.o
+LOAD C:\Users\nasim\AppData\Local\Temp\cc6ZTwvk.o
 LOAD c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a
 LOAD c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -2430,53 +2431,57 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000224       0x2c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .ARM.attributes
-                0x00000250       0x2c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x00000250       0x2c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
  .ARM.attributes
-                0x0000027c       0x2c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x0000027c       0x2c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
  .ARM.attributes
-                0x000002a8       0x2c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x000002a8       0x2c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
  .ARM.attributes
-                0x000002d4       0x2c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x000002d4       0x2c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
  .ARM.attributes
-                0x00000300       0x2c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x00000300       0x2c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
  .ARM.attributes
-                0x0000032c       0x2c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000032c       0x2c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .ARM.attributes
-                0x00000358       0x22 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x00000358       0x2c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .ARM.attributes
-                0x0000037a       0x2c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x00000384       0x22 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .ARM.attributes
-                0x000003a6       0x22 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x000003a6       0x2c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
  .ARM.attributes
-                0x000003c8       0x22 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x000003d2       0x22 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
  .ARM.attributes
-                0x000003ea       0x2c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x000003f4       0x22 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
  .ARM.attributes
-                0x00000416       0x22 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x00000416       0x2c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
  .ARM.attributes
-                0x00000438       0x22 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x00000442       0x22 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
  .ARM.attributes
-                0x0000045a       0x22 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x00000464       0x22 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
  .ARM.attributes
-                0x0000047c       0x2c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x00000486       0x22 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
  .ARM.attributes
-                0x000004a8       0x22 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x000004a8       0x2c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
  .ARM.attributes
-                0x000004ca       0x22 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x000004d4       0x22 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
  .ARM.attributes
-                0x000004ec       0x22 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+                0x000004f6       0x22 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
  .ARM.attributes
-                0x0000050e       0x2c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x00000518       0x22 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
  .ARM.attributes
-                0x0000053a       0x2c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000053a       0x2c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .ARM.attributes
-                0x00000566       0x2c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x00000566       0x2c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .ARM.attributes
-                0x00000592       0x22 C:\Users\nasim\AppData\Local\Temp\ccUcMXtg.o
+                0x00000592       0x2c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .ARM.attributes
-                0x000005b4       0x1e c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+                0x000005be       0x2c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
  .ARM.attributes
-                0x000005d2       0x2c c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-strlen-stub.o)
+                0x000005ea       0x22 C:\Users\nasim\AppData\Local\Temp\cc6ZTwvk.o
+ .ARM.attributes
+                0x0000060c       0x1e c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x0000062a       0x2c c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-strlen-stub.o)
 
 .comment        0x00000000       0x49
  .comment       0x00000000       0x49 CMakeFiles/ad5694r.dir/ad5694r.cpp.obj
@@ -2491,6 +2496,7 @@ LOAD linker stubs
  .comment       0x00000049       0x4a CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
  .comment       0x00000049       0x4a CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .comment       0x00000049       0x4a CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .comment       0x00000049       0x4a CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
  .comment       0x00000049       0x4a CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
  .comment       0x00000049       0x4a CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
  .comment       0x00000049       0x4a CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
@@ -2502,319 +2508,340 @@ LOAD linker stubs
  .comment       0x00000049       0x4a CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
  .comment       0x00000049       0x4a CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .comment       0x00000049       0x4a CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .comment       0x00000049       0x4a CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .comment       0x00000049       0x4a CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
 
-.debug_info     0x00000000    0x150a1
- .debug_info    0x00000000      0x580 CMakeFiles/ad5694r.dir/ad5694r.cpp.obj
- .debug_info    0x00000580     0x16d8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_info    0x00001c58      0x1e3 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_info    0x00001e3b      0x6bc CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_info    0x000024f7      0x58e CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_info    0x00002a85     0x1c9c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_info    0x00004721      0x1a4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_info    0x000048c5     0x20d3 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_info    0x00006998     0x4066 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_info    0x0000a9fe     0x13ee CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_info    0x0000bdec     0x123b CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_info    0x0000d027      0xf8d CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_info    0x0000dfb4      0x51b CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_info    0x0000e4cf      0x4ee CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_info    0x0000e9bd      0x1d8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_info    0x0000eb95     0x1028 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_info    0x0000fbbd     0x1a5f CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_info    0x0001161c       0x22 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_info    0x0001163e      0x27c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_info    0x000118ba       0x22 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_info    0x000118dc       0x22 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_info    0x000118fe      0x2d1 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_info    0x00011bcf       0x22 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_info    0x00011bf1       0x26 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_info    0x00011c17       0x22 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_info    0x00011c39      0x2eb CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_info    0x00011f24       0x22 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
- .debug_info    0x00011f46       0x22 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_info    0x00011f68       0x22 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_info    0x00011f8a      0x2f6 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_info    0x00012280     0x1821 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_info    0x00013aa1     0x1600 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+.debug_info     0x00000000    0x1757f
+ .debug_info    0x00000000      0xeb5 CMakeFiles/ad5694r.dir/ad5694r.cpp.obj
+ .debug_info    0x00000eb5     0x16d8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_info    0x0000258d      0x1e3 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_info    0x00002770      0x6bc CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_info    0x00002e2c      0x58e CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_info    0x000033ba     0x1c9c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_info    0x00005056      0x1a4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_info    0x000051fa     0x20d3 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_info    0x000072cd     0x4066 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_info    0x0000b333     0x13ee CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_info    0x0000c721     0x123b CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_info    0x0000d95c      0xb65 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_info    0x0000e4c1      0xf8d CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_info    0x0000f44e      0x51b CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_info    0x0000f969      0x4ee CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_info    0x0000fe57      0x1d8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_info    0x0001002f     0x1028 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_info    0x00011057     0x1a5f CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_info    0x00012ab6       0x22 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_info    0x00012ad8      0x27c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_info    0x00012d54       0x22 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_info    0x00012d76       0x22 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_info    0x00012d98      0x2d1 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_info    0x00013069       0x22 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_info    0x0001308b       0x26 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_info    0x000130b1       0x22 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_info    0x000130d3      0x2eb CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_info    0x000133be       0x22 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+ .debug_info    0x000133e0       0x22 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_info    0x00013402       0x22 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_info    0x00013424      0x2f6 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_info    0x0001371a     0x1821 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_info    0x00014f3b     0x1044 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .debug_info    0x00015f7f     0x1600 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
 
-.debug_abbrev   0x00000000     0x3f74
- .debug_abbrev  0x00000000      0x1ce CMakeFiles/ad5694r.dir/ad5694r.cpp.obj
- .debug_abbrev  0x000001ce      0x339 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_abbrev  0x00000507       0xeb CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_abbrev  0x000005f2      0x2e9 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_abbrev  0x000008db      0x21b CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_abbrev  0x00000af6      0x4e7 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_abbrev  0x00000fdd      0x116 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_abbrev  0x000010f3      0x397 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_abbrev  0x0000148a      0x571 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_abbrev  0x000019fb      0x3b8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_abbrev  0x00001db3      0x297 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_abbrev  0x0000204a      0x3a5 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_abbrev  0x000023ef      0x1ea CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_abbrev  0x000025d9      0x1a8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_abbrev  0x00002781      0x109 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_abbrev  0x0000288a      0x4ba CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_abbrev  0x00002d44      0x384 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_abbrev  0x000030c8       0x12 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_abbrev  0x000030da      0x13b CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_abbrev  0x00003215       0x12 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_abbrev  0x00003227       0x12 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_abbrev  0x00003239      0x179 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_abbrev  0x000033b2       0x12 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_abbrev  0x000033c4       0x14 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_abbrev  0x000033d8       0x12 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_abbrev  0x000033ea      0x18c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_abbrev  0x00003576       0x12 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
- .debug_abbrev  0x00003588       0x12 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_abbrev  0x0000359a       0x12 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_abbrev  0x000035ac       0xad CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_abbrev  0x00003659      0x4a5 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_abbrev  0x00003afe      0x476 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+.debug_abbrev   0x00000000     0x4782
+ .debug_abbrev  0x00000000      0x322 CMakeFiles/ad5694r.dir/ad5694r.cpp.obj
+ .debug_abbrev  0x00000322      0x339 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_abbrev  0x0000065b       0xeb CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_abbrev  0x00000746      0x2e9 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_abbrev  0x00000a2f      0x21b CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_abbrev  0x00000c4a      0x4e7 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_abbrev  0x00001131      0x116 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_abbrev  0x00001247      0x397 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_abbrev  0x000015de      0x571 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_abbrev  0x00001b4f      0x3b8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_abbrev  0x00001f07      0x297 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_abbrev  0x0000219e      0x2d2 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_abbrev  0x00002470      0x3a5 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_abbrev  0x00002815      0x1ea CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_abbrev  0x000029ff      0x1a8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_abbrev  0x00002ba7      0x109 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_abbrev  0x00002cb0      0x4ba CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_abbrev  0x0000316a      0x384 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_abbrev  0x000034ee       0x12 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_abbrev  0x00003500      0x13b CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_abbrev  0x0000363b       0x12 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_abbrev  0x0000364d       0x12 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_abbrev  0x0000365f      0x179 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_abbrev  0x000037d8       0x12 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_abbrev  0x000037ea       0x14 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_abbrev  0x000037fe       0x12 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_abbrev  0x00003810      0x18c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_abbrev  0x0000399c       0x12 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+ .debug_abbrev  0x000039ae       0x12 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_abbrev  0x000039c0       0x12 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_abbrev  0x000039d2       0xad CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_abbrev  0x00003a7f      0x4a5 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_abbrev  0x00003f24      0x3e8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .debug_abbrev  0x0000430c      0x476 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
 
-.debug_loc      0x00000000     0xecf2
- .debug_loc     0x00000000       0x2c CMakeFiles/ad5694r.dir/ad5694r.cpp.obj
- .debug_loc     0x0000002c     0x118d CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_loc     0x000011b9       0xe9 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_loc     0x000012a2      0x45f CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_loc     0x00001701      0x233 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_loc     0x00001934     0x13f5 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_loc     0x00002d29       0x60 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_loc     0x00002d89     0x152e CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_loc     0x000042b7     0x31cb CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_loc     0x00007482      0xacb CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_loc     0x00007f4d     0x1446 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_loc     0x00009393      0x81d CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_loc     0x00009bb0      0x2f3 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_loc     0x00009ea3      0x2ec CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_loc     0x0000a18f       0x71 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_loc     0x0000a200      0x674 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_loc     0x0000a874     0x2095 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_loc     0x0000c909      0x1a1 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_loc     0x0000caaa       0x59 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_loc     0x0000cb03       0x73 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_loc     0x0000cb76      0xe23 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_loc     0x0000d999     0x1359 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+.debug_loc      0x00000000     0xfe3d
+ .debug_loc     0x00000000      0x3bc CMakeFiles/ad5694r.dir/ad5694r.cpp.obj
+ .debug_loc     0x000003bc     0x118d CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_loc     0x00001549       0xe9 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_loc     0x00001632      0x45f CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_loc     0x00001a91      0x233 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_loc     0x00001cc4     0x13f5 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_loc     0x000030b9       0x60 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_loc     0x00003119     0x152e CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_loc     0x00004647     0x31cb CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_loc     0x00007812      0xacb CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_loc     0x000082dd     0x1446 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_loc     0x00009723      0x533 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_loc     0x00009c56      0x81d CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_loc     0x0000a473      0x2f3 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_loc     0x0000a766      0x2ec CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_loc     0x0000aa52       0x71 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_loc     0x0000aac3      0x674 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_loc     0x0000b137     0x2095 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_loc     0x0000d1cc      0x1a1 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_loc     0x0000d36d       0x59 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_loc     0x0000d3c6       0x73 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_loc     0x0000d439      0xe23 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_loc     0x0000e25c      0x888 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .debug_loc     0x0000eae4     0x1359 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
 
-.debug_aranges  0x00000000      0xe30
+.debug_aranges  0x00000000      0xee8
  .debug_aranges
-                0x00000000       0x20 CMakeFiles/ad5694r.dir/ad5694r.cpp.obj
+                0x00000000       0x40 CMakeFiles/ad5694r.dir/ad5694r.cpp.obj
  .debug_aranges
-                0x00000020      0x100 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x00000040      0x100 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .debug_aranges
-                0x00000120       0x28 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                0x00000140       0x28 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
  .debug_aranges
-                0x00000148       0x48 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x00000168       0x48 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
  .debug_aranges
-                0x00000190       0x58 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x000001b0       0x58 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
  .debug_aranges
-                0x000001e8       0xc8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x00000208       0xc8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .debug_aranges
-                0x000002b0       0x20 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x000002d0       0x20 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
  .debug_aranges
-                0x000002d0       0x90 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x000002f0       0x90 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
  .debug_aranges
-                0x00000360       0xe8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x00000380       0xe8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
  .debug_aranges
-                0x00000448       0x88 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x00000468       0x88 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .debug_aranges
-                0x000004d0       0x78 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x000004f0       0x78 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .debug_aranges
-                0x00000548       0x70 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x00000568       0x40 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
  .debug_aranges
-                0x000005b8       0x28 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x000005a8       0x70 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
  .debug_aranges
-                0x000005e0       0x58 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x00000618       0x28 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
  .debug_aranges
-                0x00000638       0x30 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x00000640       0x58 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
  .debug_aranges
-                0x00000668       0x88 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x00000698       0x30 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
  .debug_aranges
-                0x000006f0       0x90 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x000006c8       0x88 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .debug_aranges
-                0x00000780       0x68 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x00000750       0x90 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .debug_aranges
-                0x000007e8       0x30 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x000007e0       0x68 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .debug_aranges
-                0x00000818       0x40 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x00000848       0x30 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
  .debug_aranges
-                0x00000858      0x140 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x00000878       0x40 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
  .debug_aranges
-                0x00000998       0x20 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x000008b8      0x140 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
  .debug_aranges
-                0x000009b8       0xc8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x000009f8       0x20 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
  .debug_aranges
-                0x00000a80       0x20 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x00000a18       0xc8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
  .debug_aranges
-                0x00000aa0      0x130 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x00000ae0       0x20 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
  .debug_aranges
-                0x00000bd0       0x20 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x00000b00      0x130 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
  .debug_aranges
-                0x00000bf0       0x50 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x00000c30       0x20 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
  .debug_aranges
-                0x00000c40       0x38 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x00000c50       0x50 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
  .debug_aranges
-                0x00000c78       0x28 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+                0x00000ca0       0x38 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
  .debug_aranges
-                0x00000ca0       0x18 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x00000cd8       0x28 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
  .debug_aranges
-                0x00000cb8      0x100 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00000d00       0x18 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .debug_aranges
-                0x00000db8       0x78 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x00000d18      0x100 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_aranges
+                0x00000e18       0x58 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .debug_aranges
+                0x00000e70       0x78 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
 
-.debug_ranges   0x00000000     0x3118
- .debug_ranges  0x00000000       0x10 CMakeFiles/ad5694r.dir/ad5694r.cpp.obj
- .debug_ranges  0x00000010      0x150 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_ranges  0x00000160       0x18 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_ranges  0x00000178       0xd8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_ranges  0x00000250       0xf0 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_ranges  0x00000340      0x400 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_ranges  0x00000740       0x10 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_ranges  0x00000750      0xac0 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_ranges  0x00001210      0xcb8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_ranges  0x00001ec8      0x3d0 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_ranges  0x00002298      0x248 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_ranges  0x000024e0       0x60 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_ranges  0x00002540       0x30 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_ranges  0x00002570       0x48 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_ranges  0x000025b8       0x20 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_ranges  0x000025d8      0x168 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_ranges  0x00002740      0x108 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_ranges  0x00002848       0x60 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_ranges  0x000028a8       0x38 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_ranges  0x000028e0       0x38 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_ranges  0x00002918      0x138 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_ranges  0x00002a50       0x30 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_ranges  0x00002a80       0xc0 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_ranges  0x00002b40      0x128 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_ranges  0x00002c68       0x28 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_ranges  0x00002c90       0x48 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
- .debug_ranges  0x00002cd8       0x30 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_ranges  0x00002d08       0x20 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_ranges  0x00002d28      0x258 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_ranges  0x00002f80      0x198 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+.debug_ranges   0x00000000     0x34e0
+ .debug_ranges  0x00000000       0x30 CMakeFiles/ad5694r.dir/ad5694r.cpp.obj
+ .debug_ranges  0x00000030      0x150 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_ranges  0x00000180       0x18 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_ranges  0x00000198       0xd8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_ranges  0x00000270       0xf0 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_ranges  0x00000360      0x400 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_ranges  0x00000760       0x10 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_ranges  0x00000770      0xac0 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_ranges  0x00001230      0xcb8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_ranges  0x00001ee8      0x3d0 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_ranges  0x000022b8      0x248 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_ranges  0x00002500       0xf8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_ranges  0x000025f8       0x60 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_ranges  0x00002658       0x30 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_ranges  0x00002688       0x48 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_ranges  0x000026d0       0x20 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_ranges  0x000026f0      0x168 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_ranges  0x00002858      0x108 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_ranges  0x00002960       0x60 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_ranges  0x000029c0       0x38 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_ranges  0x000029f8       0x38 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_ranges  0x00002a30      0x138 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_ranges  0x00002b68       0x30 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_ranges  0x00002b98       0xc0 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_ranges  0x00002c58      0x128 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_ranges  0x00002d80       0x28 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_ranges  0x00002da8       0x48 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+ .debug_ranges  0x00002df0       0x30 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_ranges  0x00002e20       0x20 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_ranges  0x00002e40      0x258 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_ranges  0x00003098      0x2b0 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .debug_ranges  0x00003348      0x198 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
 
-.debug_line     0x00000000     0xddc7
- .debug_line    0x00000000      0x38a CMakeFiles/ad5694r.dir/ad5694r.cpp.obj
- .debug_line    0x0000038a      0xc9d CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_line    0x00001027      0x26d CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_line    0x00001294      0x465 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_line    0x000016f9      0x461 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_line    0x00001b5a     0x105a CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_line    0x00002bb4      0x21e CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_line    0x00002dd2     0x10b6 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_line    0x00003e88     0x1bbc CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_line    0x00005a44      0xc20 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_line    0x00006664      0x894 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_line    0x00006ef8      0x9cb CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_line    0x000078c3      0x552 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_line    0x00007e15      0x400 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_line    0x00008215      0x2a4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_line    0x000084b9      0xaca CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_line    0x00008f83     0x1207 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_line    0x0000a18a      0x14e CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_line    0x0000a2d8      0x225 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_line    0x0000a4fd      0x2d7 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_line    0x0000a7d4      0x42c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_line    0x0000ac00      0x33e CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_line    0x0000af3e      0x6a4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_line    0x0000b5e2       0x9e CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_line    0x0000b680      0x3e2 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_line    0x0000ba62      0x330 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_line    0x0000bd92      0x1ce CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
- .debug_line    0x0000bf60       0xc8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_line    0x0000c028       0xd6 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_line    0x0000c0fe      0x1b6 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_line    0x0000c2b4      0xe89 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_line    0x0000d13d      0xc8a CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+.debug_line     0x00000000     0xf22d
+ .debug_line    0x00000000      0x5d7 CMakeFiles/ad5694r.dir/ad5694r.cpp.obj
+ .debug_line    0x000005d7      0xc9d CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_line    0x00001274      0x26d CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_line    0x000014e1      0x465 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_line    0x00001946      0x461 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_line    0x00001da7     0x105a CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_line    0x00002e01      0x21e CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_line    0x0000301f     0x10b6 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_line    0x000040d5     0x1bbc CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_line    0x00005c91      0xc20 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_line    0x000068b1      0x894 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_line    0x00007145      0x754 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_line    0x00007899      0x9cb CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_line    0x00008264      0x552 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_line    0x000087b6      0x400 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_line    0x00008bb6      0x2a4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_line    0x00008e5a      0xaca CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_line    0x00009924     0x1207 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_line    0x0000ab2b      0x14e CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_line    0x0000ac79      0x225 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_line    0x0000ae9e      0x2d7 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_line    0x0000b175      0x42c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_line    0x0000b5a1      0x33e CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_line    0x0000b8df      0x6a4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_line    0x0000bf83       0x9e CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_line    0x0000c021      0x3e2 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_line    0x0000c403      0x330 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_line    0x0000c733      0x1ce CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+ .debug_line    0x0000c901       0xc8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_line    0x0000c9c9       0xd6 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_line    0x0000ca9f      0x1b6 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_line    0x0000cc55      0xe89 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_line    0x0000dade      0xac5 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .debug_line    0x0000e5a3      0xc8a CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
 
-.debug_str      0x00000000     0x38c5
- .debug_str     0x00000000      0x4b6 CMakeFiles/ad5694r.dir/ad5694r.cpp.obj
-                                0x519 (size before relaxing)
- .debug_str     0x000004b6      0x76a CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+.debug_str      0x00000000     0x3f13
+ .debug_str     0x00000000      0x7e1 CMakeFiles/ad5694r.dir/ad5694r.cpp.obj
+                                0x88b (size before relaxing)
+ .debug_str     0x000007e1      0x5c5 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
                                 0x9aa (size before relaxing)
- .debug_str     0x00000c20       0x88 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_str     0x00000da6       0x88 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
                                 0x232 (size before relaxing)
- .debug_str     0x00000ca8      0x1c3 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_str     0x00000e2e      0x1c3 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
                                 0x376 (size before relaxing)
- .debug_str     0x00000e6b       0xf3 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_str     0x00000ff1       0xf3 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
                                 0x35d (size before relaxing)
- .debug_str     0x00000f5e      0x3fe CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_str     0x000010e4      0x3f3 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
                                 0x7db (size before relaxing)
- .debug_str     0x0000135c       0x63 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_str     0x000014d7       0x63 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
                                 0x213 (size before relaxing)
- .debug_str     0x000013bf      0x266 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_str     0x0000153a      0x266 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
                                 0x605 (size before relaxing)
- .debug_str     0x00001625      0x717 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_str     0x000017a0      0x717 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
                                 0xc67 (size before relaxing)
- .debug_str     0x00001d3c      0x152 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_str     0x00001eb7      0x152 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
                                 0x72f (size before relaxing)
- .debug_str     0x00001e8e       0xed CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_str     0x00002009       0xed CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
                                 0x3fc (size before relaxing)
- .debug_str     0x00001f7b      0x30e CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_str     0x000020f6      0x294 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                                0x54a (size before relaxing)
+ .debug_str     0x0000238a      0x280 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
                                 0x6a3 (size before relaxing)
- .debug_str     0x00002289       0xd2 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_str     0x0000260a       0x96 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
                                 0x2ed (size before relaxing)
- .debug_str     0x0000235b      0x126 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_str     0x000026a0      0x126 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
                                 0x334 (size before relaxing)
- .debug_str     0x00002481       0x72 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_str     0x000027c6       0x72 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
                                 0x231 (size before relaxing)
- .debug_str     0x000024f3      0x2cf CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_str     0x00002838      0x2cf CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                                 0x7e1 (size before relaxing)
- .debug_str     0x000027c2      0x268 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_str     0x00002b07      0x268 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
                                 0x492 (size before relaxing)
- .debug_str     0x00002a2a       0x5c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_str     0x00002d6f       0x5c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
                                  0x83 (size before relaxing)
- .debug_str     0x00002a86       0xcb CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_str     0x00002dcb       0xcb CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
                                 0x26c (size before relaxing)
- .debug_str     0x00002b51       0x48 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_str     0x00002e96       0x48 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
                                  0x7d (size before relaxing)
- .debug_str     0x00002b99       0x4c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_str     0x00002ede       0x4c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
                                  0x81 (size before relaxing)
- .debug_str     0x00002be5       0xa4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_str     0x00002f2a       0xa4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
                                 0x2ab (size before relaxing)
- .debug_str     0x00002c89       0x52 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_str     0x00002fce       0x52 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
                                  0x87 (size before relaxing)
- .debug_str     0x00002cdb       0x57 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_str     0x00003020       0x57 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
                                  0x8c (size before relaxing)
- .debug_str     0x00002d32       0x4a CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_str     0x00003077       0x4a CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
                                  0x7f (size before relaxing)
- .debug_str     0x00002d7c       0x88 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_str     0x000030c1       0x88 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
                                 0x2c7 (size before relaxing)
- .debug_str     0x00002e04       0x50 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+ .debug_str     0x00003149       0x50 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
                                  0x85 (size before relaxing)
- .debug_str     0x00002e54       0x4e CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_str     0x00003199       0x4e CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
                                  0x83 (size before relaxing)
- .debug_str     0x00002ea2       0x4b CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_str     0x000031e7       0x4b CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
                                  0x80 (size before relaxing)
- .debug_str     0x00002eed      0x24b CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_str     0x00003232      0x24b CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
                                 0x3f4 (size before relaxing)
- .debug_str     0x00003138      0x4dd CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_str     0x0000347d      0x4bb CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
                                 0x9a9 (size before relaxing)
- .debug_str     0x00003615      0x2b0 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+ .debug_str     0x00003938      0x33e CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                                0x8cb (size before relaxing)
+ .debug_str     0x00003c76      0x29d CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
                                 0x90b (size before relaxing)
 
-.debug_frame    0x00000000     0x18b8
- .debug_frame   0x00000000       0x28 CMakeFiles/ad5694r.dir/ad5694r.cpp.obj
- .debug_frame   0x00000028      0x278 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_frame   0x000002a0       0x38 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_frame   0x000002d8       0x9c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_frame   0x00000374       0xc4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_frame   0x00000438      0x20c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_frame   0x00000644       0x20 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_frame   0x00000664      0x1b0 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_frame   0x00000814      0x2dc CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_frame   0x00000af0      0x15c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_frame   0x00000c4c      0x164 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_frame   0x00000db0      0x130 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_frame   0x00000ee0       0x44 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_frame   0x00000f24       0xa8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_frame   0x00000fcc       0x40 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_frame   0x0000100c      0x150 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_frame   0x0000115c      0x1f8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_frame   0x00001354       0x64 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_frame   0x000013b8       0x2c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_frame   0x000013e4       0x2c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_frame   0x00001410      0x2d8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_frame   0x000016e8      0x1a8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
- .debug_frame   0x00001890       0x28 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-strlen-stub.o)
+.debug_frame    0x00000000     0x1a80
+ .debug_frame   0x00000000       0x90 CMakeFiles/ad5694r.dir/ad5694r.cpp.obj
+ .debug_frame   0x00000090      0x278 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_frame   0x00000308       0x38 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_frame   0x00000340       0x9c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_frame   0x000003dc       0xc4 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_frame   0x000004a0      0x20c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_frame   0x000006ac       0x20 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_frame   0x000006cc      0x1b0 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_frame   0x0000087c      0x2dc CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_frame   0x00000b58      0x15c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_frame   0x00000cb4      0x164 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_frame   0x00000e18       0x78 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_frame   0x00000e90      0x130 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_frame   0x00000fc0       0x44 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_frame   0x00001004       0xa8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_frame   0x000010ac       0x40 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_frame   0x000010ec      0x150 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_frame   0x0000123c      0x1f8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_frame   0x00001434       0x64 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_frame   0x00001498       0x2c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_frame   0x000014c4       0x2c CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_frame   0x000014f0      0x2d8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_frame   0x000017c8       0xe8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .debug_frame   0x000018b0      0x1a8 CMakeFiles/ad5694r.dir/D_/LBNP_programming/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+ .debug_frame   0x00001a58       0x28 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-strlen-stub.o)

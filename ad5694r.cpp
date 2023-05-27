@@ -1,15 +1,17 @@
 #include "ad5694r.h"
 
 // I don't think we will need to write to input and then update DAC in separate commands! I'll do them together with 0b0011 command
-void setDAC(uint8_t dac_addr, uint8_t* value){
+void AD5696::setDAC(uint8_t dac_addr, uint16_t value){
+    uint8_t msb = (value >> 8) & 0XFF;
+    uint8_t lsb = value & 0xFF;
     uint8_t buf[3];
     buf[0] = (WriteUpdate << 4) | dac_addr;
-    buf[1] = value[0];
-    buf[2] = value[1];
+    buf[1] = msb;
+    buf[2] = lsb;
     i2c_write_blocking(i2c1, I2C_ADDR, buf, 3, false); // check msb/lsb
 }
 
-void setPowerState(uint8_t A_State, uint8_t B_State, uint8_t C_State, uint8_t D_State){    
+void AD5696::setPowerState(uint8_t A_State, uint8_t B_State, uint8_t C_State, uint8_t D_State){    
     uint8_t buf[3];
     buf[0] = (PwrDwn_PwrUP << 4) | (0b0000);
     buf[1] = 0;
@@ -17,7 +19,33 @@ void setPowerState(uint8_t A_State, uint8_t B_State, uint8_t C_State, uint8_t D_
     i2c_write_blocking(i2c1, I2C_ADDR, buf, 3, false);
 }
 
+void AD5696::internalRefDisabled (bool refDisabled){
+    uint8_t buf[3];
+    buf[0] = (InternalRefSetupReg << 4) | (0b0000);
+    buf[1] = 0;
+    buf[2] = refDisabled;
+    i2c_write_blocking(i2c1, I2C_ADDR, buf, 3, false);
+}
+
+void AD5696::reset(uint pin_gp){
+    gpio_put(pin_gp, 0);
+    sleep_ms(10); //is this time ok?
+    gpio_put(RESET_GPIO, 1);
+}
+
 int main(){
+
+    stdio_init_all();
+    
+    // DAC reset pin
+    gpio_init(RESET_GPIO);
+    gpio_set_dir(RESET_GPIO, GPIO_OUT);
+    gpio_put(RESET_GPIO, 1); // Active low pin
+
+    // DAC LDAC pin
+    gpio_init(LDAC_GPIO);
+    gpio_set_dir(LDAC_GPIO, GPIO_OUT); ////////////////////////
+
 
     AD5696 ad5694r;
     // Init i2c1 controller
@@ -38,10 +66,10 @@ int main(){
     ad5694r.setPowerState(/*DAC A*/ stateNormal, /*DAC B*/ stateNormal, /*DAC C*/ stateNC, /*DAC D*/ stateNC);
     
     // Table 14 & 15 - Disable internal reference, since we are using an external VERF
-    
+    ad5694r.internalRefDisabled(true);
 
     // Set DAC
-
+    // probably should put it inside an interrupt, to have ref and meas at the same instance saved.
 
     return 0;
 

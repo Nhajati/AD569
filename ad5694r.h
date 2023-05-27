@@ -3,10 +3,10 @@
 #include "pico/stdlib.h"
 #include "hardware/i2c.h"
 
-#define DAC_A    (0b0000)
-#define DAC_B    (0b0001)
-#define DAC_C    (0b0010)
-#define DAC_D    (0b0011)
+// #define DAC_A    (0b0000)
+// #define DAC_B    (0b0001)
+// #define DAC_C    (0b0010)
+// #define DAC_D    (0b0011)
 
 // Table 8 - Address Commands
 #define CH_NONE (0b0000)
@@ -37,16 +37,19 @@
 // Table 9 - Device Address Selection
 #define I2C_ADDR          (0b0001100)
 
+// reset and ldac pins
+#define RESET_GPIO    1
+#define LDAC_GPIO     0
 
 class AD5696{
  public:
-  AD5696();
+  // AD5696();
   void begin();
-  void setDAC(uint8_t dac_addr, uint8_t* value); 
+  void setDAC(uint8_t dac_addr, uint16_t value); 
   // void readDAC(uint8_t addr, uint8_t channel, uint8_t operation, uint16_t *returnArray);
   void setPowerState(uint8_t A_State, uint8_t B_State, uint8_t C_State, uint8_t D_State);
   // void setLDACMask(uint8_t addr, uint8_t channel); // Table 12 - we don't care about this, since I am using write and update simultaneously
   void internalRefDisabled(bool refDisabled);
-  void reset(uint8_t addr);
+  void reset(uint pin_gp);
 
 };
